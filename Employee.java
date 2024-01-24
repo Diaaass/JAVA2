@@ -13,7 +13,6 @@ public class Employee extends Person{
         setSalary(salary);
     }
 
-    @Override
     public String getPosition() {
         return position;
     }
@@ -30,12 +29,10 @@ public class Employee extends Person{
         this.salary = salary;
     }
 
-    @Override
     public String toString() {
         return "Employee: " + super.toString();
     }
 
-    @Override
     public double getPaymentAmount() {
         return salary;
     }

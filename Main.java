@@ -13,16 +13,13 @@ public class Main {
     public static void main (String[] args) {
         ArrayList<Person> persons = new ArrayList<>();
         persons.add(
-                new Employee("John", "Lennon", "somePosition", 27045.78F)
+                new Employee("Oleg", "Lsp", "somePosition", 27.2F)
         );
         persons.add(
-                new Employee("George", "Harrison", "somePosition", 50000.00F)
+                new Employee("Adik", "Adikivich", "somePosition", 112.1F)
         );
         persons.add(
-                new Student("Ringo", "Starr", 2.34F)
-        );
-        persons.add(
-                new Student("Paul", "McCartney", 3.45F)
+                new Student("Dias", "M", 31.1F)
         );
 
         Collections.sort(persons);

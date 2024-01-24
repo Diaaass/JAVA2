@@ -44,12 +44,10 @@ public class Person implements Payable, Comparable<Person> {
         return "Student";
     }
 
-    @Override
     public double getPaymentAmount() {
         return 0;
     }
 
-    @Override
     public int compareTo(Person h) {
         return Double.compare(
                 this.getPaymentAmount(),
